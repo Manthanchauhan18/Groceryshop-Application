@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="8"
+    android:orientation="vertical"
+    android:background="@drawable/mart3"
+    tools:context=".AdmineHome">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btAdshow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:text="Show User"
+            android:textSize="30dp"
+            android:background="@drawable/roundbutton"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/benne"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp">
+
+
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btAdadd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/benne"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/roundbutton"
+            android:text="Add Grocerry"
+            android:textSize="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp">
+
+
+
+        </Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btAddelete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Delete Grocerry"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/benne"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp">
+
+
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btAdupdate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundbutton"
+            android:text="Update Grocerry"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/benne"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp">
+
+
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

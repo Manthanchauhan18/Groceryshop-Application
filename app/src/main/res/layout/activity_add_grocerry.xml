@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mart3"
+    android:weightSum="12"
+    android:orientation="vertical"
+    tools:context=".AddGrocerry">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp">
+
+
+        <TextView
+            android:id="@+id/tvadadd1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Grocerry Mart"
+            android:textSize="40dp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/benne">
+
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </LinearLayout>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        app:cardCornerRadius="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="8"
+            android:orientation="vertical"
+            android:background="#5D6D7E">
+
+
+            <TextView
+                android:id="@+id/tvAdadd2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text=" Add Grocerry"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:fontFamily="@font/benne"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="0dp">
+
+
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_width="320dp"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"/>
+
+            </RelativeLayout>
+
+
+
+            <EditText
+                android:id="@+id/etAdaddname"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint=" Name"
+                android:textSize="25dp"
+                android:textColorHint="#000000"
+                android:textColor="#000000"
+                android:fontFamily="@font/benne"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/addgroceryroundedbutton"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/etAdaddprice"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint=" Price"
+                android:textSize="25dp"
+                android:textColorHint="#000000"
+                android:textColor="#000000"
+                android:fontFamily="@font/benne"
+                android:background="@drawable/addgroceryroundedbutton"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/etAdaddstock"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint=" Stock"
+                android:textSize="25dp"
+                android:textColorHint="#000000"
+                android:textColor="#000000"
+                android:background="@drawable/addgroceryroundedbutton"
+                android:fontFamily="@font/benne"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/etAdaddmeasurment"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint=" Measurement"
+                android:textSize="25dp"
+                android:background="@drawable/addgroceryroundedbutton"
+                android:textColorHint="#000000"
+                android:textColor="#000000"
+                android:fontFamily="@font/benne"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+
+
+            </EditText>
+
+            <Button
+                android:id="@+id/btAdaddimage"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Add Image"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:background="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp">
+
+            </Button>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btAdadditem"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginRight="10dp"
+                android:text="Add Item"
+                android:textAllCaps="false"
+                android:background="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp">
+
+            </Button>
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/pbAdadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyle"
+        android:layout_weight="1">
+
+
+    </ProgressBar>
+
+</LinearLayout>

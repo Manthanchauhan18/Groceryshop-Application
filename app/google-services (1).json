@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1061598765910",
+    "firebase_url": "https://groceryshopmanthanchauhan-default-rtdb.firebaseio.com",
+    "project_id": "groceryshopmanthanchauhan",
+    "storage_bucket": "groceryshopmanthanchauhan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061598765910:android:1ba808db464bb1cbf6acf7",
+        "android_client_info": {
+          "package_name": "com.example.groceryshopmanthanchauhan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061598765910-bjibul928d3f6t45bgvsh5833ce020g1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2mdX-5vtRlt-ePearPRCPO4TT9k-RqYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061598765910-bjibul928d3f6t45bgvsh5833ce020g1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
